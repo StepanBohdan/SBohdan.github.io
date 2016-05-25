@@ -68,7 +68,7 @@
     background-position: top center;
     background-size: cover;
     height: 100%;
-    min-height: 230px;
+    min-height: 252px;
 }
 .ofer1:before{
     content: '';
@@ -84,7 +84,7 @@
     background-position: top center;
     background-size: cover;
     height: 100%;
-    min-height: 230px;
+    min-height: 252px;
 }
 .ofer2:before{
     content: '';
@@ -209,7 +209,7 @@ img {
 	color: #fff;
 }
 .sec-padding {
-	padding: 50px 0;
+	padding: 50px 0 30px;
 }
 
 .sec-title {
@@ -511,7 +511,7 @@ img {
     border-radius: 0px;
     background: #107fc9;
     padding: 6px 20px;
-    margin: 0px;
+    margin: 0 0 30px;
     line-height: 1.2em;
     height: inherit;
     top: 30px;
@@ -932,7 +932,8 @@ img {
 }
 .call-to-action-corner {
 	/*width: 35%;*/
-	position: relative;	
+	position: relative;
+    min-height: 160px;
 	/*float: left;*/
 
 	background-repeat: no-repeat;
@@ -952,6 +953,7 @@ img {
 .call-to-action-center {
 	/*width: 30%;*/
 	position: relative;
+    min-height: 160px;
 	/*float: left;*/
 
 	background-repeat: no-repeat;
@@ -1151,8 +1153,7 @@ img {
 	line-height: 26px;
 }
 .full-sec .full-sec-content {
-	padding-top: 50px;
-	padding-left: 70px;
+	padding: 50px 0 40px 70px;
 }
 .full-sec .thm-btn {
 	padding: 7px 21px;
@@ -1446,7 +1447,7 @@ img {
 
 .fact-counter-wrapper {
 	position: relative;
-	background: url(../img/resources/fact-counter-bg.jpg) center center no-repeat;
+	background: url(../img/new/nextgen_pic_11.jpg) center center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
     text-align: center;
@@ -1458,7 +1459,7 @@ img {
 	right: 0;
 	bottom: 0;
 	content: '';
-	background: #2562b3;
+	background: rgba(0, 92, 202, .7);
 	opacity: .95;
 }
 .fact-counter-wrapper h2 {
@@ -3384,4 +3385,7 @@ footer .pl_about_us_widget p span a:active {
 #return-to-top:hover i {
   color: #186AAB;
   top: 5px;
+}
+.pl_about_us_widget {
+    padding: 0 0 20px;
 }
