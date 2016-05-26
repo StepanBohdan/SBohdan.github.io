@@ -3137,7 +3137,7 @@ footer .pl_about_us_widget p span a:active {
     color:#2562b3;
     font-size:18px;
     font-weight:normal; 
-    padding-left: 10px;
+    padding-left: 0px;
     padding-right:20px;
 }
 #single_Service .service_sideber .services_lis ul li a {
@@ -3619,4 +3619,66 @@ figure.effect-layla:hover img {
         max-width: 98%;
         margin: 0 auto;
     }
+}
+
+.service_content-plate {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 40px 0;
+}
+.service_plate {
+    padding: 20px 10px;
+    min-height: 720px;
+}
+.service-item-description {
+    border: 1px solid #efefef;
+}
+.service_plate h4 {
+    margin: 30px 0px 20px 20px;
+    text-transform: uppercase;
+}
+.service_plate h4 a {
+    color: #2c2c2c;
+}
+.service-item-description>p {
+    position: relative;
+}
+ .service-item-description>p::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 0;
+    left: 0;
+    top: -20px;
+    max-width: 100%;
+    width: 160px;
+    background: linear-gradient(to right,rgba(16,127,202,.3) 0,rgba(16,127,202,.15) 35%,rgba(16,127,202,.05) 70%,rgba(16,127,202,0) 100%);
+}
+.service_plate p {
+    margin: 30px 0px 20px 20px;
+}
+.service_icon-list {
+    padding: 0 0 0 20px;
+}
+.service_icon-list li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 5px;
+}
+.service_plate a {
+    color: #9C9C9C;
+}
+.service_plate a:hover {
+    color: #107fc9;
+    transition: all .3s ease-out;
+}
+.service_icon-list>p {
+    display: inline-block;
+    float: right;
+    margin: 10px;
+    font-size: 12px;
+}
+
+.col-service_sideber {
+    padding-right: 5px;
 }
