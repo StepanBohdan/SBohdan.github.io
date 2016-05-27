@@ -3632,4 +3632,5 @@ figure.effect-layla:hover img {
 }
 .col_service-plate {
     max-width: 400px;
+    min-height: 570px;
 }
