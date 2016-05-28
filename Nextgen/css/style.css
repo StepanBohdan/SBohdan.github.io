@@ -3260,7 +3260,7 @@ footer .pl_about_us_widget p span a:active {
 #single_Service .service_mainconetent .about_box h2{
     font-family:'Raleway';
     font-size:20px;
-    font-weight:500;
+    font-weight:700;
     color:#202a30;
 }
 #single_Service .service_mainconetent .about_box p{
@@ -3636,4 +3636,12 @@ figure.effect-layla:hover img {
 }
 .icon {
     height: 37px;
+}
+
+.panel-title {
+    color: #2562B3;
+    font-weight: 700;
+}
+.panel-body span {
+    font-weight: 700;
 }
