@@ -3645,3 +3645,6 @@ figure.effect-layla:hover img {
 .panel-body span {
     font-weight: 700;
 }
+.ui-title-inner {
+    text-transform: uppercase;
+}
