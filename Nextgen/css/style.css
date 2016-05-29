@@ -560,7 +560,7 @@ img {
     padding: 0px;
 }
 .dept-content {
-    padding-top: 15px;
+    padding: 15px 15px 40px;
 }
 
 
@@ -3651,4 +3651,18 @@ figure.effect-layla:hover img {
 }
 .ui-datepicker {
     width: 254px;
+}
+.ui-state-hover {
+    color: #A1D782;
+}
+.bg_transparent.bg_3 {
+    background-color: rgba(255, 118, 3, 0.78);
+}
+.panel-collapse>.row {
+    margin: 0;
+}
+.row-about {
+    min-width: 310px;
+    max-width: 88%;
+    margin: 0 auto 30px auto;
 }
