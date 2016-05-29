@@ -3661,7 +3661,7 @@ figure.effect-layla:hover img {
 .panel-collapse>.row {
     margin: 0;
 }
-.row-about {
+.about-content .row-about {
     min-width: 310px;
     max-width: 88%;
     margin: 0 auto 30px auto;
