@@ -454,15 +454,16 @@ img {
 }
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-    color: #6d6d6d !important;
+    color: #6d6d6d;
 }
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
     border: 1px solid #e0e1e2;
-    background: url('../img/resources/plus-collapse-all.png') no-repeat right -288px #fff !important;
+    background: url('../img/resources/plus-collapse-all.png') no-repeat right -288px #fff ;
     font-weight: normal;
     color: #8c99a9;
     font-size: 15px;
     border-bottom: none;
+    background: none;
 }
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
     color: #fff !important;
@@ -3647,4 +3648,7 @@ figure.effect-layla:hover img {
 }
 .ui-title-inner {
     text-transform: uppercase;
+}
+.ui-datepicker {
+    width: 254px;
 }
