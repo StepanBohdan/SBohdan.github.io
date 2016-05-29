@@ -3661,7 +3661,6 @@ figure.effect-layla:hover img {
     margin: 0;
 }
 .about-content .row-about {
-    min-width: 310px;
-    max-width: 88%;
+    min-width: 300px;
     margin: 0 auto 30px auto;
 }
