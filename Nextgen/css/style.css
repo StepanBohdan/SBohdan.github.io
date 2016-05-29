@@ -3661,6 +3661,9 @@ figure.effect-layla:hover img {
     margin: 0;
 }
 .about-content .row-about {
-    min-width: 300px;
+    min-width: 310px;
     margin: 0 auto 30px auto;
+}
+.slider_team .social-links_right {
+    display: none;
 }
