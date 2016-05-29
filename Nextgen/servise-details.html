@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<!-- responsive stylesheet -->
 	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="/resources/demos/style.css">
 
 
 
@@ -136,7 +137,7 @@
 							<form action="inc/sendemail.php" class="side_form contact-form" id="appointment-side-form"> 
 								<input class="" type="text"  placeholder="Full name" name="name" />
 								<input type="text"  placeholder="Email" name="email"/>
-								<input type="text" class="date-picker" name="date" placeholder="Select Date">
+								<input type="text" class="date-picker" name="date" placeholder="Select Date" id="datepicker">
 								<div class="select-input-wrapper">
 									<select class="select-input" name="category">
 										<option value="" selected="selected">Select Category</option>
@@ -1052,12 +1053,19 @@
 	<script src="js/gmap.js"></script>
 -->
 
+
+
 	<!-- isotope script -->
 	<script src="js/isotope.pkgd.min.js"></script>
 	<!-- jQuery ui js -->
 	<script src="js/jquery-ui-1.11.4/jquery-ui.js"></script>
 	
 	<!-- revolution scripts -->
+	<script>
+  		$(function() {
+    		$( "#datepicker" ).datepicker();
+  		});
+  	</script>
 
 	<script src="revolution/js/jquery.themepunch.tools.min.js"></script>
 	<script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
