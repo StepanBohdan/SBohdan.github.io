@@ -494,6 +494,7 @@ img {
 .dept-details-butt.posts-showall {
     left: 50%;
     margin-left: -50px;
+    margin-bottom: 50px;
 }
 .dept-details-butt:hover {
     color: #fff !important;
@@ -1137,7 +1138,6 @@ img {
 
 .full-sec {
     background: #FBFCFC;
-    margin-top: 20px;
 }
 .full-sec .sec-title {
     margin: 0;
@@ -3661,8 +3661,10 @@ figure.effect-layla:hover img {
 .panel-collapse>.row {
     margin: 0;
 }
-.row-about {
+.about-content .row-about {
     min-width: 310px;
-    max-width: 88%;
     margin: 0 auto 30px auto;
+}
+.slider_team .social-links_right {
+    display: none;
 }
