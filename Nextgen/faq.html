@@ -11,14 +11,17 @@
   <link rel="stylesheet" href="css/style.css">
   <!-- responsive stylesheet -->
   <link rel="stylesheet" href="css/responsive.css">
-  <link href="css/master.css" rel="stylesheet">
-  <link rel="stylesheet" href="plugins/iview/css/iview.css" type='text/css' media='all' />
-<link rel="stylesheet" href="plugins/iview/css/skin/style.css" type='text/css' media='all' />
-<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-<script src= "js/jquery-migrate-1.2.1.js" ></script>
-<script src="js/jquery-ui.min.js"></script>
-<script src="js/bootstrap-3.1.1.min.js"></script>
-<script src="js/modernizr.custom.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  	<script>
+  $(function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  });
+  </script>
 
 
 
@@ -108,7 +111,9 @@
 						<h2>FAQs</h2>
 						<span class="decor"><span class="inner"></span></span>
 					</div>
-					<div class="accrodion-grp" data-grp-name="faq-accrodion">
+
+
+					<div id="accordion" class="accrodion-grp" data-grp-name="faq-accrodion">
 						<div class="accrodion active">
 							<div class="accrodion-title">
 								<h4>
@@ -133,7 +138,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="accrodion ">
+						<div  class="accrodion ">
 							<div class="accrodion-title">
 								<h4>
 									<span class="decor">
@@ -418,6 +423,7 @@
     <a href="javascript:" id="return-to-top" style="display: block;"><i class="fa fa-chevron-up"></i></a>
 
 
+
 	<!-- main jQuery -->
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<!-- bootstrap -->
@@ -465,6 +471,8 @@
 
 	<!-- thm custom script -->
 	<script src="js/custom.js"></script>
+
+
 
 
 
