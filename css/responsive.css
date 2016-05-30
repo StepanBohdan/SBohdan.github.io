@@ -1,5 +1,5 @@
 @media (min-width: 1400px) {
-	.single-call-to-action {padding-left: 10%;}
+	/* .single-call-to-action {padding-left: 10%;} */
 	.home-one .open-hours .content-box {width: 48%;}	
 }
 
@@ -55,7 +55,7 @@
         height: auto;
         padding-top: 50%;
         margin-bottom: 0px;
-        background-size: contain;
+        /* background-size: contain; */
     }
     .row-eq-height{
         display: block;
