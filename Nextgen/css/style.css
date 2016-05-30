@@ -494,6 +494,7 @@ img {
 .dept-details-butt.posts-showall {
     left: 50%;
     margin-left: -50px;
+    margin-bottom: 50px;
 }
 .dept-details-butt:hover {
     color: #fff !important;
