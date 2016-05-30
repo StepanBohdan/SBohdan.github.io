@@ -341,3 +341,4 @@ jQuery(window).on('scroll', function () {
 		stickyHeader();
 	})(jQuery);
 });
+
