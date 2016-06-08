@@ -3674,6 +3674,9 @@ figure.effect-layla:hover img {
     margin: 0 auto;
     display: block;
 }
+.contact-form {
+    margin-top: 30px;
+}
 .contact-icon {
     margin: 0 0 80px 0;
 }
@@ -3718,14 +3721,6 @@ figure.effect-layla:hover img {
         display: block;
     }
 }
-/*.contact-form {
-    background-size: cover;
-    background-image: url(../img/Appointment_back.jpg);
-    background-repeat: no-repeat;
-    display: block;
-    margin: 30px auto;
-    height: 573px;
-}*/
 .form-control {
     border-radius: 25px;
     border-color: #eee;
@@ -3764,4 +3759,19 @@ figure.effect-layla:hover img {
     right: 10px;
     padding: 18px 20px 18px 0;
     color: #107fc9;
+}
+.appointment-form {
+    background-size: 100%;
+    background-image: url(../img/Appointment_back.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    margin: 30px auto;
+    height: 573px;
+    color: #fff;
+}
+.appointment-form h4{
+    margin-bottom: 30px;
+}
+.left {
+    float: left;
 }
