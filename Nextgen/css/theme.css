@@ -360,7 +360,7 @@ a.footer__contacts:hover {
 	position: relative;
 	top: -10px;
 	color: #fff;
-	border-bottom: 4px solid #a3cd83;
+	border-bottom: 4px solid #f26529;
 	z-index: 100;
 }
 .block-hourse_full {
@@ -455,10 +455,10 @@ a.footer__contacts:hover {
 }
 .advantages__inner:hover .btn {
 	color: #fff;
-	background-color: #a3cd83;
+	background-color: #f26529;
 }
 .advantages__inner:hover .icon {
-	color: #a3cd83;
+	color: #f26529;
 }
 .advantages__subtitle {
 	margin-top: 34px;
@@ -598,7 +598,7 @@ a.footer__contacts:hover {
 	border-radius: 25px;
 }
 .subscribe.bg_3 .btn {
-	color: #a3cd83;
+	color: #f26529;
 	background-color: #fff;
 }
 .subscribe.bg_3 .form-control {
@@ -614,7 +614,7 @@ a.footer__contacts:hover {
 	color: #fff;
 	vertical-align: middle;
 	border-radius: 50%;
-	background-color: #0a6cb5;
+	background-color: #2986e2;
 	transition: all 0.3s;
 	text-align: center;
 }
@@ -663,12 +663,12 @@ a.footer__contacts:hover {
 	font-size: 30px;
 }
 .list-icons .icon-round:hover {
-	background-color: #a3cd83;
+	background-color: #f26529;
 	box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.2);
 }
 .list-icons .icon-round_grey:hover {
 	color: #fff;
-	background-color: #a3cd83;
+	background-color: #f26529;
 	box-shadow: 0 0 0 5px #eee;
 }
 .list-progress {
@@ -733,10 +733,10 @@ a.footer__contacts:hover {
 	padding-right: 17px;
 	font-family: 'Simple-Line-Icons';
 	font-size: 12px;
-	color: #a3cd83;
+	color: #f26529;
 }
 .list-mark .icon:hover:before {
-	color: #a3cd83;
+	color: #f26529;
 }
 .list-services {
 	margin-top: 16px;
@@ -753,7 +753,7 @@ a.footer__contacts:hover {
 	color: #2986e2;
 }
 .list-services_vert .list-services__item:hover .list-services__title {
-	color: #a3cd83;
+	color: #f26529;
 }
 .list-services__inner {
 	margin-bottom: 55px;
@@ -776,7 +776,7 @@ a.footer__contacts:hover {
 	font-weight: 700;
 }
 .list-services .list-services__item:hover .icon-round {
-	background-color: #a3cd83;
+	background-color: #f26529;
 	box-shadow: 0 0 0 5px #eee;
 }
 .list-services .btn_small {
@@ -785,7 +785,7 @@ a.footer__contacts:hover {
 }
 .list-services .list-services__item:hover .icon-round_grey {
 	color: #fff;
-	background-color: #a3cd83;
+	background-color: #f26529;
 	box-shadow: 0 0 0 5px #eee;
 }
 .list-services_vert .list-services__inner {
@@ -919,7 +919,7 @@ a.footer__contacts:hover {
 	transition: all 0.3s;
 }
 .social-links .social_icons:hover {
-	color: #a3cd83;
+	color: #f26529;
 }
 .yamm .dropdown-menu .t1-title .decor-brand {
 	background-image: url("../img/decor-brand.png");
@@ -972,7 +972,7 @@ a.footer__contacts:hover {
 	transition: all 0.3s;
 }
 .btn_small:hover {
-	background-color: #a3cd83;
+	background-color: #f26529;
 }
 .btn_full {
 	width: 100%;
@@ -1026,7 +1026,7 @@ a.footer__contacts:hover {
 	text-align: center;
 }
 .link-full:hover {
-	background: #a3cd83 none repeat scroll 0 0;
+	background: #f26529 none repeat scroll 0 0;
 	border-radius: 20px;
 	box-shadow: 0 -1px 3px 1px rgba(95, 95, 95, 0.88) inset;
 	color: #fff;
@@ -1076,7 +1076,7 @@ a.footer__contacts:hover {
 	height: 100%;
 	padding-top: 16px;
 	font-size: 18px;
-	color: #a3cd83;
+	color: #f26529;
 	border-left: 1px solid rgba(255, 255, 255, 1);
 	box-shadow: -1px 0 #ddd;
 	text-align: center;
@@ -1396,7 +1396,7 @@ html .scroll-top-view {
 	display: block;
 	margin-top: 5px;
 	font-size: 12px;
-	color: #f26528;
+	color: #a1d782;
 }
 .slider_team .slide:hover {
 	border-bottom-color: #f2f7f9;
@@ -1465,7 +1465,7 @@ html .scroll-top-view {
 	color: #888;
 }
 .slider_team .social-links .social_icons:hover {
-	color: #a3cd83;
+	color: #f26529;
 }
 .slider_team .bx-controls {
 	bottom: 0;
