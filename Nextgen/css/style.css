@@ -58,6 +58,7 @@
 @import url(inner.css);
 @import url(theme-GlobalUI.css);
 @import url(theme.css);
+@import url(../plugins/isotope/isotope.css);
 
 @import url(../fonts/flaticon/flaticon.css);
 
@@ -3786,3 +3787,7 @@ figure.effect-layla:hover img {
         background-image: none;
     }
 }
+/*.isotope-item {
+    display: inline-block;
+}*/
+
