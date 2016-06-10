@@ -3731,6 +3731,7 @@ figure.effect-layla:hover img {
     float: right;
     background-color: #107fc9;
     border-radius: 20px;
+    border: none;
     padding: 7px 16px;
 }
 .form-group .fa-user {
@@ -3808,5 +3809,17 @@ figure.effect-layla:hover img {
     margin-top: 20px;
 }
 .row-about .carrers_button:hover {
+    background-color: #a1d782;
+}
+.hover__figure a {
+    color: #fff;
+}
+.hover__figure a:hover {
+    color: #fff;
+}
+.form-group .btn-primary {
+    background-color: #2562b3;
+}
+.form-group .btn-primary:hover {
     background-color: #a1d782;
 }
