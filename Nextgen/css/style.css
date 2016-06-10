@@ -3823,3 +3823,46 @@ figure.effect-layla:hover img {
 .form-group .btn-primary:hover {
     background-color: #a1d782;
 }
+#return-to-appointment {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background: rgb(37, 98, 179);
+    width: 130px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 5px;
+    /*display: none;*/
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  text-align: center;
+  background: rgba(37, 98, 179, 0.7);
+ 
+}
+#return-to-appointment span {
+    color: #a1d782;
+    margin: 0;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    font-size: 16px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  font-weight: 500;
+}
+#return-to-appointment:hover {
+    background: rgba(37, 98, 179, 0.9);
+}
+#return-to-appointment:hover i {
+    color: #fff;
+    top: 5px;
+}
