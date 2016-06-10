@@ -3846,7 +3846,7 @@ figure.effect-layla:hover img {
  
 }
 #return-to-appointment span {
-    color: #a1d782;
+    color: #fff;
     margin: 0;
     position: relative;
     left: 0px;
@@ -3860,7 +3860,7 @@ figure.effect-layla:hover img {
   font-weight: 500;
 }
 #return-to-appointment:hover {
-    background: rgba(37, 98, 179, 0.9);
+    background-color: #a1d782;
 }
 #return-to-appointment:hover i {
     color: #fff;
